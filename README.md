@@ -70,12 +70,12 @@ http://uzuletter.site
 ![Notion](https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=Notion&logoColor=white)
 
 
-### 🖥️ 주요 화면
+### 🖥️ 주요 화면 / 구현 예시
 
-![ezgif-5-b3fc6af882](https://github.com/team-pause/uzuletter-public/assets/88870452/3fd36a14-de93-4018-8fc9-55247fb854e7)
+<!--![ezgif-5-b3fc6af882](https://github.com/team-pause/uzuletter-public/assets/88870452/3fd36a14-de93-4018-8fc9-55247fb854e7)-->
 
-
-<img width="1342" alt="image" src="https://github.com/team-pause/uzuletter-public/assets/88870452/f7694446-4740-4c3f-81b9-e73498a4b0d4">
+<!--
+<img width="1342" alt="image" src="https://github.com/team-pause/uzuletter-public/assets/88870452/f7694446-4740-4c3f-81b9-e73498a4b0d4">-->
 
 <details>
  <summary>별 만들기 과정</summary>
@@ -113,9 +113,9 @@ http://uzuletter.site
 </details>
 
 <details>
- <summarty>
-  유저 홈
- </summarty>
+ <summary>
+  7월 7일 이전 유저 홈
+ </summary>
 
   # 🌟 카카오톡 채널 추가 가능
   
@@ -126,20 +126,82 @@ http://uzuletter.site
  
  - 링크 복사
 
-  # 🌟 별 이름 
 ![회원가입7-내가 있는 곳 공유하기](https://github.com/team-pause/uzuletter-public/assets/88870452/1c8b868d-28cb-4a9b-b284-b85670197927)
 
-  # 🌟 별 이름 입력
-
-  # 🌟 별 이름 입력
-  # 🌟 별 이름 입력
-  # 🌟 별 이름 입력
-  # 🌟 별 이름 입력
-  # 🌟 별 이름 입력
-  # 🌟 별 이름 입력
+  # 🌟 받은 별 확인하기
   
+![유저홈1-별확인](https://github.com/team-pause/uzuletter-public/assets/88870452/92b0dcef-dde1-46b6-9642-ee9ddf3f2b06)
+
+  # 🌟 서비스 탈퇴하기
+
+  - 계속 이용하기
+
+  ![탈퇴1-서비스계속이용하기](https://github.com/team-pause/uzuletter-public/assets/88870452/cd4a92c9-645f-4a80-a967-9f469c9fbc0d)
+
+  - 탈퇴하기 후 홈화면
+
+![탈퇴2-서비스탈퇴](https://github.com/team-pause/uzuletter-public/assets/88870452/c53da2cb-f120-40ed-9b87-68089224daba)
+
+
+</details>
+<details>
+ <summary>별 편지 두고가기</summary>
 
  
+
+  # 🌟 공유받은 카카오톡 링크로 접속
+  
+  ![별두가1-카톡링크로접속](https://github.com/team-pause/uzuletter-public/assets/88870452/eca78647-7acb-4bf4-9038-08597d588f0e)
+
+  # 🌟 별 두고 가기 (별 모양 선택)
+  
+![별두가2-별모양선택](https://github.com/team-pause/uzuletter-public/assets/88870452/eb086f0f-9a53-467a-8971-755d31339f9b)
+
+  # 🌟 별 두고 가기 (별 색상 선택)
+
+![별두가3-별색상선택](https://github.com/team-pause/uzuletter-public/assets/88870452/e8eaa341-cef5-45e7-9be2-22976d4dca4d)
+
+  
+  # 🌟 별 이름 입력
+
+![별두가4-별이름입력](https://github.com/team-pause/uzuletter-public/assets/88870452/4c7f671f-1521-498f-bf5e-08362a3d82ad)
+
+  
+  # 🌟 별에 담길 이야기 입력
+
+  ![별두가5-별내용입력](https://github.com/team-pause/uzuletter-public/assets/88870452/31055569-8727-4d93-83b0-70e2a13a6de1)
+
+  # 🌟 별 보내고 목록에서 확인
+
+  ![별두가6-별보내고목록에서확인](https://github.com/team-pause/uzuletter-public/assets/88870452/87ce8b71-9df7-420f-83b9-7d4bc97cf213)
+
+ 
+ 
+</details>
+<details>
+ <summary>
+  7월 7일 이후 유저 홈(별편지 확인)
+ </summary>
+
+  # 🌟 7월 7일 이후 접속
+
+ ![이유1-접속](https://github.com/team-pause/uzuletter-public/assets/88870452/d394261f-a023-4275-b93f-abc3962f7513)
+
+  
+  # 🌟 별 둘러보기
+
+![이유2-둘러보기](https://github.com/team-pause/uzuletter-public/assets/88870452/e33cab50-b1f2-400b-a790-428225e7beec)
+
+  
+  # 🌟 별 목록 확인
+
+![이유3-목록확인](https://github.com/team-pause/uzuletter-public/assets/88870452/2cc44ad9-155e-4de7-a233-dc7353e2043a)
+![이유4-목록확인2](https://github.com/team-pause/uzuletter-public/assets/88870452/a3d9dd49-35a0-4e4d-8917-2f18e7e52450)
+
+  
+  # 🌟 별 편지 상세 확인(+넘기기)
+  
+  ![이유5-상세편지확인](https://github.com/team-pause/uzuletter-public/assets/88870452/47a0f896-23b9-49e3-8858-a56b6247f4a1)
  
 </details>
 
