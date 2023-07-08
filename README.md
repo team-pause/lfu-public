@@ -1,21 +1,35 @@
 # 우주편지
 
+<br>
+
 <img src="https://github.com/team-pause/uzuletter-public/assets/88870452/0860b0ce-f95d-4005-bc31-975c681b369b" width="400"/>
+
+<br>
 
 ## 우주에서 "별"로 마음을 전하는 롤링페이퍼 프로젝트 우주편지
 
+<br><br>
+
 ### 👨‍👩‍👧‍👦 사용자
-환경에 관심이 있지만 정보를 찾기 어려워 하는 사람
-제로 웨이스트 라이프에 관심이 있는 사람
-채식주의자
+
+특별한 방법으로 친구 / 가족 / 동료 / 연인에게 마음을 전하고 싶은 사람<br>
+스트레스에 지쳐 힐링이 필요한 사람<br>
+반복적인 일상에서 벗어나 우주로 떠나고 싶은 사람
+
+<br>
 
 ### 🌏 사이트
+
 http://uzuletter.site
 
+<br>
 
 ### ⏰ 개발 기간
+
 2023.05.22 ~ 2023.07.06
 (2023.07.06 ~ 배포 중)
+
+<br>
 
 ### 📁 분석 설계
 
@@ -46,7 +60,7 @@ http://uzuletter.site
 
 </details>
 
-
+<br>
 
 ### ⚙️ 기술 스택
 
@@ -69,8 +83,11 @@ http://uzuletter.site
 ![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?&style=for-the-badge&logo=Figma&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=Notion&logoColor=white)
 
+<br>
 
 ### 🖥️ 주요 화면 / 구현 예시
+
+<br>
 
 <!--![ezgif-5-b3fc6af882](https://github.com/team-pause/uzuletter-public/assets/88870452/3fd36a14-de93-4018-8fc9-55247fb854e7)-->
 
@@ -112,6 +129,8 @@ http://uzuletter.site
 
 </details>
 
+<br>
+
 <details>
  <summary>
   7월 7일 이전 유저 홈
@@ -144,6 +163,9 @@ http://uzuletter.site
 
 
 </details>
+
+<br>
+
 <details>
  <summary>별 편지 두고가기</summary>
 
@@ -178,6 +200,9 @@ http://uzuletter.site
  
  
 </details>
+
+<br>
+
 <details>
  <summary>
   7월 7일 이후 유저 홈(별편지 확인)
