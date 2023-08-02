@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pause.lfu.mapper.UserMapper" >
+
+    <resultMap id="userMap" type="com.pause.lfu.domain.User">
+        <result column="id" property="id"/>
+        <result column="kakao_id" property="kakaoId" />
+        <result column="naver_id" property="naverId"/>
+        <result column="nickname" property="nickname"/>
+        <result column="color" property="color"/>
+        <result column="shape" property="shape"/>
+        <result column="created_at" property="createdAt"/>
+        <result column="withdraw" property="withdraw"/>
+        <result column="naver_id" property="naverId"/>
+        <result column="d_day_login" property="dDayLogin"/>
+    </resultMap>
+
+    <insert id="insertUser" parameterType="com.pause.lfu.domain.User">
+        INSERT INTO user
+        (
+         kakao_id,
+         naver_id,
+         nickname,
+         color,
+         shape,
+         created_at
+        )
+        VALUES
+            (
+             #{kakaoId},
+             #{naverId},
+             #{nickname},
+             #{color},
+             #{shape},
+             now()
+            )
+    </insert>
+
+    <insert id="insertKakaoUser" parameterType="String">
+        INSERT INTO user
+(kakao_id) values (#{kakaoId})
+    </insert>
+
+    <update id="updateUser" parameterType="com.pause.lfu.domain.User">
+        UPDATE user
+        SET nickname = #{nickname}, color = #{color}, shape = #{shape}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="Integer">
+        DELETE FROM user
+        WHERE id = #{id}
+    </delete>
+
+    <select id="selectUserByKakaoId" parameterType="String" resultMap="userMap">
+        SELECT *
+        FROM user
+        WHERE kakao_id = #{kakaoId}
+    </select>
+
+    <select id="selectUserById" parameterType="Integer" resultMap="userMap">
+        SELECT *
+        FROM user
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectUserByNickname" parameterType="String" resultMap="userMap">
+        SELECT *
+        FROM user
+        WHERE nickname = #{nickname}
+    </select>
+
+    <select id="selectAllUsers" resultMap="userMap">
+        SELECT *
+        FROM user
+    </select>
+
+</mapper>
